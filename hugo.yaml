@@ -51,7 +51,7 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "No BS. Build then deploy."
-  description: "Tech Team for hire"
+  description: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -104,10 +104,6 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
       name: About
       url: /about/
