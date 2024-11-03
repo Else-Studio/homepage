@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: Else Studio
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -47,11 +47,11 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: Else Studio
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  moto: "No BS. Build then deploy."
+  description: "Tech Team for hire"
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -99,16 +99,7 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
-    facebook:
-      enabled: true
-      url: 'https://facebook.com/nusserstudios'
-    instagram:
-      enabled: true
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
-      enabled: true
-      url: 'https://twitter.com/nusserstudios'
+      url: 'https://github.com/Else-Studio'
     
 
 menu:
@@ -121,63 +112,28 @@ menu:
       name: About
       url: /about/
       weight: 20
-    - identifier: categories
+    - identifier: jobs
       pre: dropdown
-      name: Categories
+      name: Jobs
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+  jobs:
+    - identifier: dev
+      name: Developer
+      url: /dev/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: qa
+      name: QA
+      url: /qa/
       weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
   footer:
     - identifier: about
       name: About
       url: /about/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
