@@ -50,52 +50,70 @@ params:
   author: Else Studio
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "No BS. Build then deploy."
-  description: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
+  moto: "Hire a tech lead, get a team"
+  description: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
   disable_theme_toggle: false
-  disable_stay_uptodate: false
+  disable_stay_uptodate: true
 
   p1:
-    heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    heading: "What We Excel At"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - title: "Building Apps That Solve Your Problems"
+        image: "images/pages/p1-build.jpg"
+        text: "We just love building stuff, especially things that solve real problems, make people happy, and look beautiful. Check out our portfolio and see what we've done so far!"
+      - title: "Direct Communication, No-Nonsense Understanding"
+        image: "images/pages/p1-listen.jpg"
+        text: "Forget endless meetings and \"let me get back to you\" responses. You'll communicate directly with our experienced tech lead, who understands the ins and outs of software development from every angle. We cut through the jargon and get straight to building solutions, ensuring your project is understood and your business needs are met."
+      - title: "Calm, Consistent, and Reliable Software Delivery"
+        image: "images/pages/p1-calm.jpg"
+        text: "We avoid the \"fire drill\" mentality and focus on a calm, sustainable development process. This means consistent progress, fewer emergencies, and on-time delivery without sacrificing quality or burning out the team."
+      - title: "Efficiency in Every Step"
+        image: "images/pages/p1-efficient.jpg"
+        text: "We're obsessed with efficiency. Our developers focus on one task at a time, giving their full attention to ensure quality results.  We streamline everything, from automated builds to proactive code refactoring.  And with just Basecamp and GitHub for collaboration, we minimize distractions and maximize productivity. All features undergo rigorous manual and automated testing for maximum reliability."
+      - title: "Knowing When to Say \"No\""
+        image: "images/pages/p1-no.jpg"
+        text: "We're not afraid to say \"no\" when it makes sense.  We're upfront about our capabilities and won't take on a project if it's beyond our capacity or comes with unrealistic expectations. This keeps us focused on projects where we can deliver real value and achieve the best possible outcomes for our clients.  It's about setting realistic goals and building long-term relationships, not just chasing quick wins."
+        
   p2:
-    heading: "Just in time for Hacktoberfest with JIT Tailwind."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "What have we done"
+    image: "images/pages/p2-group.jpg"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
+      - title: "Direct Line to the Tech Lead"
+        image: "images/pages/p2-direct.svg"
+        text: "You'll be working directly with the tech lead (that's me!), not a project manager or intermediary. This means faster communication, clearer understanding, and quicker decisions."
+      - title: "Asynchronous Teamwork"
+        image: "images/pages/p2-async.svg"
+        text: "We embrace asynchronous communication to keep things moving smoothly without constant meetings.  We'll keep you updated on progress and address any roadblocks promptly, but we won't bog you down with unnecessary sync-ups."
+      - title: "Flexible to Your Needs"
+        image: "images/pages/p2-flexible.svg"
+        text: "Need to scale up or down? No problem. We can adjust our commitment to match your business rhythm. Slow month? We'll keep the essentials running. Big launch coming up? We'll crank up the gears and get it done."
+      - title: "Rapid Feedback Loops"
+        image: "images/pages/p2-loop.svg"
+        text: "We prioritize quick feedback to keep projects on track. We'll set up a clear and easy way for you to sign off on builds early and often, ensuring a faster product cycle and happier everyone."
+      - title: "Local Expertise"
+        image: "images/pages/p2-local.svg"
+        text: "We're a Malaysian team based in the country.  We're fluent in English, Mandarin, and Malay, so communication is a breeze."
+        
   p3:
-    heading: "Backed by world-renowned investors"
+    heading: "What We've Delivered"
+    subheading: "We've tackled all sorts of software challenges. Need a mobile app rebuilt for tens of thousands of users? Done that.  Want to bring your app idea to life from scratch?  We've got you covered.  Even keeping those old web apps running smoothly—we've been there, done that.  Here's a glimpse of what we can do:"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-    links:
-      - text: Meet our investors and advisors
-        url: "#"
-    logos:
-      - identifier: a
-        image: "images/global/sample-logo.svg"
-        alt: "a"
-      - identifier: b
-      - identifier: c
-      - identifier: d
-      - identifier: e
-      - identifier: f
-  p4:
-    heading: "From the blog"
-    content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
-  p5:
-    heading: "Stay Up to Date"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
-    action: "#"
-    label: "Email address"
-    placeholder: "Enter your email"
-    button: "Notify me"
-
+      - title: "Revamped a Mobile App for a Huge User Base"
+        image: "images/pages/p3-zd.jpg"
+        text: "Our biggest win? Replacing an outdated mobile app with a modern, high-performing version for a business with tens of thousands of users. Smoother, more visually appealing, and no more crashes. (This was our founding mission, and we aced it!)"
+      - title: "Turned App Ideas into Reality"
+        image: "images/pages/p3-ke.jpg"
+        text: "We've helped businesses take their app dreams from concept to launch, handling everything from design and UX to development and QA. We even take care of the admin panel, so you can focus on what matters most."
+      - title: "Kept Legacy Systems Alive (and Kicking)"
+        image: "images/pages/p3-legacy.jpg"
+        text: "We've successfully added new features to legacy web applications without causing any explosions. (But honestly, sometimes a rewrite is the best way forward. We can help with that too.)"
+      - title: "Built an Open-Source Dart Framework"
+        image: "images/pages/p3-badger.jpg"
+        text: "We created Badger, a Dart framework for enterprise applications. It's already out there making a difference!"
+      - title: "Delivered (Mostly) Bug-Free Code"
+        image: "images/pages/p3-badger.jpg"
+        text: "All our work goes through rigorous in-house QA with test cases written before we even start coding.  We hate bugs as much as you do."
+        
   social_media:
     github:
       enabled: true
