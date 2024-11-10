@@ -8,8 +8,6 @@ enableRobotsTXT: true
 canonifyURLs: true
 pagination:
   pagerSize: 6
-darkmode_js:
-  - assets/js/darkmode.js
 enableInlineShortcodes: true
 
 markup:
@@ -52,7 +50,7 @@ params:
   og_image: /images/tailbliss-cover.png
   moto: "Hire a tech lead, get a team"
   description: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
-  disable_theme_toggle: false
+  disable_theme_toggle: true
   disable_stay_uptodate: true
 
   p1:
@@ -75,7 +73,8 @@ params:
         text: "We're not afraid to say \"no\" when it makes sense.  We're upfront about our capabilities and won't take on a project if it's beyond our capacity or comes with unrealistic expectations. This keeps us focused on projects where we can deliver real value and achieve the best possible outcomes for our clients.  It's about setting realistic goals and building long-term relationships, not just chasing quick wins."
         
   p2:
-    heading: "What have we done"
+    heading: "How We Collaborate"
+    subheading: "We believe in a smooth, efficient, and enjoyable collaboration experience. Here's how we make that happen:"
     image: "images/pages/p2-group.jpg"
     content:
       - title: "Direct Line to the Tech Lead"
