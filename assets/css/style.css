@@ -2596,10 +2596,6 @@ video {
   grid-column: span 3 / span 3;
 }
 
-.col-span-9 {
-  grid-column: span 9 / span 9;
-}
-
 .-mx-5 {
   margin-left: -1.25rem;
   margin-right: -1.25rem;
@@ -2791,14 +2787,6 @@ video {
 
 .max-w-2xl {
   max-width: 42rem;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
 }
 
 .max-w-7xl {
@@ -4371,10 +4359,6 @@ EmojiSymbols;
     margin-top: -8rem;
   }
 
-  .sm\:mb-6 {
-    margin-bottom: 1.5rem;
-  }
-
   .sm\:ml-3 {
     margin-left: 0.75rem;
   }
@@ -4601,10 +4585,6 @@ EmojiSymbols;
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  .lg\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .lg\:mb-16 {

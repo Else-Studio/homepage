@@ -52,7 +52,9 @@ params:
   description: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
   disable_theme_toggle: true
   disable_stay_uptodate: true
-
+  logo_disclaimer: "The logo is masterfully crafted by our designer (and boss)."
+  image_disclaimer: "All other images are AI generated with Gemini Advanced."
+  
   p1:
     heading: "What We Excel At"
     content:
@@ -87,10 +89,10 @@ params:
         image: "images/pages/p2-flexible.svg"
         text: "Need to scale up or down? No problem. We can adjust our commitment to match your business rhythm. Slow month? We'll keep the essentials running. Big launch coming up? We'll crank up the gears and get it done."
       - title: "Rapid Feedback Loops"
-        image: "images/pages/p2-loop.svg"
+        image: "images/pages/p2-local.svg"
         text: "We prioritize quick feedback to keep projects on track. We'll set up a clear and easy way for you to sign off on builds early and often, ensuring a faster product cycle and happier everyone."
       - title: "Local Expertise"
-        image: "images/pages/p2-local.svg"
+        image: "images/pages/p2-loop.svg"
         text: "We're a Malaysian team based in the country.  We're fluent in English, Mandarin, and Malay, so communication is a breeze."
         
   p3:
@@ -110,8 +112,13 @@ params:
         image: "images/pages/p3-badger.jpg"
         text: "We created Badger, a Dart framework for enterprise applications. It's already out there making a difference!"
       - title: "Delivered (Mostly) Bug-Free Code"
-        image: "images/pages/p3-badger.jpg"
+        image: "images/pages/p3-bug.jpg"
         text: "All our work goes through rigorous in-house QA with test cases written before we even start coding.  We hate bugs as much as you do."
+
+  contact:
+    title: "Get in touch"
+    preemail: "For a quick response, email "
+    postemail: " (usually within hours!).  Or, if you prefer, leave your email and a message here."
         
   social_media:
     github:
@@ -121,10 +128,6 @@ params:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
     - identifier: jobs
       pre: dropdown
       name: Jobs
@@ -143,9 +146,13 @@ menu:
       url: /qa/
       weight: 20
   footer:
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: dev_job
+      name: Job for Dev
+      url: /dev/
+      weight: 10
+    - identifier: qa_job
+      name: Job for QA
+      url: /qa/
       weight: 10
     - identifier: contact
       name: Contact

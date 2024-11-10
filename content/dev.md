@@ -1,13 +1,10 @@
 ---
-title: "Dev Job"
+title: "You're a software developer? Come work with Else Studio"
 date: 2024-11-03T00:00:00+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
 description: Hiring Programmer
 ---
-
-# You're a web/app/frontend/backend/any developer? Come work with Else Studio.
 
 ## Why?
 
@@ -69,6 +66,3 @@ Prepare an **email**. In it:
 4.  A link to your GitHub or GitLab or any public (or private) repositories that contain your projects and/or contributions.
 
 **Number 4 is crucial**. **Git and the ability to build an app** are our requirements to work here. If you need time to push or create a project, you can ping me with an email first and send me the links when you're done. Exposing your projects is a good thing to do, even if you end up not wanting this job.
-
-Send it to [kuan@hey.com](mailto:kuan@hey.com). I will get back to you very quickly. Please expect a couple of email exchanges before we start the first project.
-
