@@ -1,12 +1,12 @@
 ---
-title: "You're a software developer? Come work with Else Studio"
+title: "Dev Job"
 date: 2024-11-03T00:00:00+08:00
 draft: false
 language: en
-description: Hiring Programmer
+description: You're a software developer? Come work with Us!
 ---
 
-## Why?
+### Why?
 
 **Freedom.**
 
@@ -18,13 +18,13 @@ I do not know when you start working, how long is your break, or if you bring th
 
 Deliver, on time and on point. We will build a reputable dev team together.
 
-## How much?
+### How much?
 
 Ultimately, most of the pay is calculated on an hourly basis. For the current opening, you can expect a roughy **RM 50/hour** payout, depending on your speed and accuracy. As mentioned, the first few payouts will be project-based. I will estimate the hours required for the task to price each project. The heuristic I used in my estimation was how many hours I assumed myself to complete the same project/task, and then I multiplied by my hourly rate. So, in essence, you will be paid for the hours you took off from me.
 
 Completing these projects will let us learn about our chemistry, shortcomings, progress speed and the adjusted hourly rate for you.
 
-## What is the work?
+### What is the work?
 
 We are a software house specialising in **frontend development**, slowly moving into **full-stack**. **Flutter** is the primary tool of choice, to build mobile applications, web applications, and potentially desktop applications. We just started a **full-stack** project with one of our client, using **Java** **Quarkus** for the backend job. **ReactJS** is used in maintaining a few clients' ongoing web applications. 
 
@@ -44,7 +44,7 @@ UX and UI designs are adequately provided by our clients, but we need to be sens
 
 My current clients are either very good backend developer or already has a stable running backend. You will not write backend code here, at the moment. The future is unpredictable, and nothing is stopping you from doing anything on your own time.
 
-## Who is in it together?
+### Who is in it together?
 
 If you end up joining, the team size will be 6.
 
@@ -52,11 +52,11 @@ A handful of software engineers with one or two QAs should make a beefy team for
 
 Except for the rare occasion that you might interact with the client's backend programmer or designer, you will be working with less than 5 people, for a long while.
 
-## When can you start?
+### When can you start?
 
 **Anytime**.
 
-## How to apply?
+### How to apply?
 
 Prepare an **email**. In it:
 

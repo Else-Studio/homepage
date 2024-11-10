@@ -1,11 +1,12 @@
 ---
-title: "Our QA Job"
+title: "QA Job"
 date: 2024-11-03T00:00:00+08:00
 draft: false
 language: en
-description: Hiring QA
+description: We value our Quality. We respect QA work here! 
 ---
-## Time
+
+### Time
 
 This job has two starting options. You can choose one style and stick with it, or we can switch it up. The important thing is to have consistent QA available to handle our almost weekly build release across various platforms and projects.
 
@@ -19,11 +20,11 @@ Even if we only follow the second option, there should still be a minimum number
 
 These options aren't meant to be rigid. We can swap them around if the situation calls for it. They're here to act as guidelines for how testing works at Else Studio.
 
-## Pay
+### Pay
 
 We'll start with RM15 per hour for manual testing and RM20 per hour for paperwork (test case generation/modification, bug report enhancement, etc.). You'll track the hours and bill me at the end of each month. I'm anticipating a 2:1 ratio of manual work to paperwork.
 
-## Work
+### Work
 
 Here are the kinds of testing you'll perform:
 
@@ -39,15 +40,15 @@ If you like reading and writing longer-form text as the primary work communicati
 
 The upside is asynchronous communication happening at everyone's convenience. You can check messages later and come back with a question or solution.
 
-## Team
+### Team
 
 We're still a pretty small software team. You'll be our only QA when you join. But I have plan to improve our QA capacity, might even get two.
 
-## When Can You Start?
+### When Can You Start?
 
 Anytime.
 
-## How to Apply?
+### How to Apply?
 
 Prepare an email with the following:
 

@@ -50,8 +50,8 @@ params:
   description: "App and Software development by Malaysia local tech"
   disable_theme_toggle: true
   disable_stay_uptodate: true
-  logo_disclaimer: "The logo is masterfully crafted by our designer (and boss)."
-  image_disclaimer: "All other images are AI generated with Gemini Advanced."
+  logo_disclaimer: "The logo is masterfully crafted by our designer."
+  image_disclaimer: "SVGs from https://www.svgrepo.com. All other images are AI generated with Gemini Advanced."
 
   nav:
     title: "Else Studio"
@@ -67,18 +67,28 @@ params:
       - title: "Building Apps That Solve Your Problems"
         image: "images/pages/p1-build.jpg"
         text: "We just love building stuff, especially things that solve real problems, make people happy, and look beautiful. Check out our portfolio and see what we've done so far!"
+        link: "/way#building-apps-that-solve-your-problems"
+        link_text: "Tell me more"
       - title: "Direct Communication, No-Nonsense Understanding"
         image: "images/pages/p1-listen.jpg"
         text: "Forget endless meetings and \"let me get back to you\" responses. You'll communicate directly with our experienced tech lead, who understands the ins and outs of software development from every angle. We cut through the jargon and get straight to building solutions, ensuring your project is understood and your business needs are met."
+        link: "/way#direct-communication-no-nonsense-understanding"
+        link_text: "Tell me more"
       - title: "Calm, Consistent, and Reliable Software Delivery"
         image: "images/pages/p1-calm.jpg"
         text: "We avoid the \"fire drill\" mentality and focus on a calm, sustainable development process. This means consistent progress, fewer emergencies, and on-time delivery without sacrificing quality or burning out the team."
+        link: "/way#calm-consistent-and-reliable-software-delivery"
+        link_text: "Tell me more"
       - title: "Efficiency in Every Step"
         image: "images/pages/p1-efficient.jpg"
         text: "We're obsessed with efficiency. Our developers focus on one task at a time, giving their full attention to ensure quality results.  We streamline everything, from automated builds to proactive code refactoring.  And with just Basecamp and GitHub for collaboration, we minimize distractions and maximize productivity. All features undergo rigorous manual and automated testing for maximum reliability."
+        link: "/way#efficiency-in-every-step"
+        link_text: "Tell me more"
       - title: "Knowing When to Say \"No\""
         image: "images/pages/p1-no.jpg"
         text: "We're not afraid to say \"no\" when it makes sense.  We're upfront about our capabilities and won't take on a project if it's beyond our capacity or comes with unrealistic expectations. This keeps us focused on projects where we can deliver real value and achieve the best possible outcomes for our clients.  It's about setting realistic goals and building long-term relationships, not just chasing quick wins."
+        link: "/way#knowing-when-to-say-no"
+        link_text: "Tell me more"
         
   p2:
     heading: "How We Collaborate"
@@ -134,6 +144,10 @@ params:
 
 menu:
   main:
+    - identifier: hire
+      pre: dropdown
+      name: Hire Us
+      weight: 30
     - identifier: jobs
       pre: dropdown
       name: Jobs
@@ -142,6 +156,11 @@ menu:
       name: Contact
       url: /contact/
       weight: 50
+  hire:
+    - identifier: way
+      name: Why Us?
+      url: /way
+      weight: 10
   jobs:
     - identifier: dev
       name: Developer
