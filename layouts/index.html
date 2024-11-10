@@ -26,7 +26,7 @@
             {{ $p1image := resources.Get .image }}
             {{ with $p1image }}
             {{ with .Resize (printf "320x320 webp q90") }}
-            <img imgh src="{{ .RelPermalink }}" width="320" height="320" class="w-32 h-32 md:w-64 md:h-auto md:rounded-md rounded-full mx-auto object-cover" alt="P1" loading="lazy" />
+            <img imgh src="{{ .RelPermalink }}" width="320" height="320" class="w-32 h-32 md:w-64 md:h-auto md:rounded-md rounded-full mx-auto object-cover" alt="P1" />
             {{ end }}
             {{ end }}
             
