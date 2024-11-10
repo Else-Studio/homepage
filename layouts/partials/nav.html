@@ -2,12 +2,14 @@
     <div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-1">
             <a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
-                {{ $p1image := resources.Get .Site.Params.logo_url }}
-                {{ with $p1image }}
-                <img src="{{ .RelPermalink }}" class="transition-opacity h-14 w-14 group-hover:opacity-50 group-focus:opacity-70" alt="Logo" />
+                {{ $logo := resources.Get .Site.Params.logo_url }}
+                {{ with $logo }}
+                {{ with .Resize (printf "64x64 webp q90") }}
+                <img src="{{ .RelPermalink }}" width="64" height="64" class="transition-opacity h-14 w-14 group-hover:opacity-50 group-focus:opacity-70" alt="Logo" />
                 {{ end }}
-                <div class="mt-2 ml-3 text-3xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
-                    {{ .Site.Title }}</div>
+                {{ end }}
+                <div class="ml-3 text-2xl font-black tracking-tight md:mt-3 text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                    {{ .Site.Params.nav.title }} <span class="text-lg font-semibold block md:inline">{{ .Site.Params.nav.subtitle }}<span></div>
             </a>
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">

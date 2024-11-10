@@ -1,28 +1,25 @@
 {{ define "main" }}
 <main>
     <div class="bg-gray-200">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto">
+        <div class="max-w-screen-lg px-4 py-8 mx-auto">
             <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
-              <span class="block text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
-                {{ .Site.Params.Moto }}
-              </span> 
-                {{ .Site.Title }} - Software House
+                {{ .Site.Params.Hero.heading }}
             </h1>
             <p class="mx-auto mb-6 text-left font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
-                {{ .Site.Params.Description}}
+                {{ .Site.Params.Hero.subheading }}
             </p>
         </div>
     </div>
 
     <!-- What we excel at -->
-      <div class="max-w-screen-xl px-4 py-4 mx-auto">
+      <div class="max-w-screen-lg px-4 py-4 mx-auto">
         <h2 class="text-3xl text-center font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl lg:text-left">
             {{ .Site.Params.P1.Heading }}
         </h2>
         
         {{ range .Site.Params.P1.Content }}
         <div class="p-2">
-          <figure class="md:flex max-w-screen-xl bg-primary-100 rounded-xl p-4 md:p-0 dark:bg-primary-800">
+          <figure class="md:flex max-w-screen-lg bg-primary-100 rounded-xl p-4 md:p-0 dark:bg-primary-800">
             {{ $p1image := resources.Get .image }}
             {{ with $p1image }}
             {{ with .Resize (printf "320x320 webp q90") }}
@@ -42,7 +39,7 @@
     </div>
 
     <!-- How We Collaborate -->
-    <div class="max-w-screen-xl px-4 py-4 mx-auto bg-primary-500 text-gray-100 rounded-md">
+    <div class="max-w-screen-lg px-4 py-4 mx-auto bg-primary-500 text-gray-100 rounded-md">
         <h2 class="p-2 text-3xl text-center font-bold tracking-tight text-gray-100 dark:text-gray-50 sm:text-4xl lg:text-left">
             {{ .Site.Params.P2.Heading }}
         </h2>
@@ -67,7 +64,7 @@
   </div>    
 
     <!-- What We've Delivered -->
-    <div class="max-w-screen-xl px-4 py-4 mx-auto">
+    <div class="max-w-screen-lg px-4 py-4 mx-auto">
         <h2 class="p-2 text-3xl text-center font-bold tracking-tight sm:text-4xl lg:text-left">
             {{ .Site.Params.P3.Heading }}
         </h2>

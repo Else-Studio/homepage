@@ -1338,6 +1338,10 @@ video {
   max-width: 28rem;
 }
 
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -2448,6 +2452,10 @@ EmojiSymbols;
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .md\:inline {

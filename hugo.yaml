@@ -1,5 +1,5 @@
 baseURL: ''
-title: Else Studio
+title: Else Studio - Software House
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -46,14 +46,20 @@ markup:
 
 params:
   author: Else Studio
-  authorimage: ../assets/images/global/author.webp
   logo_url: "images/pages/logo.jpg"
-  moto: "Hire a tech lead, get a team"
-  description: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
+  description: "App and Software development by Malaysia local tech"
   disable_theme_toggle: true
   disable_stay_uptodate: true
   logo_disclaimer: "The logo is masterfully crafted by our designer (and boss)."
   image_disclaimer: "All other images are AI generated with Gemini Advanced."
+
+  nav:
+    title: "Else Studio"
+    subtitle: "Software House"
+
+  hero:
+    heading: "Hire a tech lead, get a team"
+    subheading: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
   
   p1:
     heading: "What We Excel At"
