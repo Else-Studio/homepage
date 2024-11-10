@@ -47,7 +47,7 @@ markup:
 params:
   author: Else Studio
   authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  logo_url: "images/pages/logo.jpg"
   moto: "Hire a tech lead, get a team"
   description: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
   disable_theme_toggle: true
@@ -163,10 +163,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-
-taxonomies:
-  category: Categories
-  tag: Tags
 
 privacy:
   disqus:
