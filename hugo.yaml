@@ -94,6 +94,10 @@ params:
     heading: "How We Collaborate"
     subheading: "We believe in a smooth, efficient, and enjoyable collaboration experience. Here's how we make that happen:"
     image: "images/pages/p2-group.jpg"
+    more:
+        text: "Want to learn more?"
+        link_text: "Dive deep into collaboration."
+        link: "/how"
     content:
       - title: "Direct Line to the Tech Lead"
         image: "images/pages/p2-direct.svg"
@@ -107,7 +111,7 @@ params:
       - title: "Rapid Feedback Loops"
         image: "images/pages/p2-local.svg"
         text: "We prioritize quick feedback to keep projects on track. We'll set up a clear and easy way for you to sign off on builds early and often, ensuring a faster product cycle and happier everyone."
-      - title: "Local Expertise"
+      - title: "Local Expertise. Globally Available"
         image: "images/pages/p2-loop.svg"
         text: "We're a Malaysian team based in the country.  We're fluent in English, Mandarin, and Malay, so communication is a breeze."
         
@@ -117,6 +121,11 @@ params:
     content:
       - title: "Revamped a Mobile App for a Huge User Base"
         image: "images/pages/p3-zd.jpg"
+        case_study:
+          - link_text: "Case study: Rewrite SpeedHome"
+            link: "/zd"
+          - link_text: "Case study: SpeedHome++"
+            link: "/zd-plus"
         text: "Our biggest win? Replacing an outdated mobile app with a modern, high-performing version for a business with tens of thousands of users. Smoother, more visually appealing, and no more crashes. (This was our founding mission, and we aced it!)"
       - title: "Turned App Ideas into Reality"
         image: "images/pages/p3-ke.jpg"
@@ -144,10 +153,14 @@ params:
 
 menu:
   main:
-    - identifier: hire
-      pre: dropdown
-      name: Hire Us
-      weight: 30
+    - identifier: way
+      name: Why Us?
+      url: /way
+      weight: 10
+    - identifier: collaborate
+      name: Collab
+      url: /how
+      weight: 20
     - identifier: jobs
       pre: dropdown
       name: Jobs
@@ -156,11 +169,6 @@ menu:
       name: Contact
       url: /contact/
       weight: 50
-  hire:
-    - identifier: way
-      name: Why Us?
-      url: /way
-      weight: 10
   jobs:
     - identifier: dev
       name: Developer
