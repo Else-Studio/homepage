@@ -1,0 +1,557 @@
+---
+title: Contact
+date: 2024-11-03T00:00:00+08:00
+draft: false
+language: en
+description: Find Us
+---
+
+<!-- @format -->
+---
+title: "Dev Job"
+date: 2024-11-03T00:00:00+08:00
+draft: false
+language: en
+description: You're a software developer? Come work with Us!
+---
+
+### Why?
+
+**Freedom.**
+
+You will start with a **project-based or task-based payment**. As soon as the work is done and the goal is met, we conclude the project, and you get the pay by the month's end, accumulated, and then we proceed to the next project. Just keep me posted with progress every work day, even if it is a small step. Maybe we will do a one-hour face-to-face meeting for the project conclusion. Maybe we will do a one-hour pair programming every other week. Maybe.
+
+And that is it.
+
+I do not know when you start working, how long is your break, or if you bring the kids to the beach on Monday morning. You could be hard at work, covered in noise-cancelling earphones in the middle of a noisy café, on a Sunday afternoon. Or shopping in an empty mall after an 11 a.m. brunch on a Tuesday. A night owl, peak at 3 a.m.? You do you. [This is how I work.](https://world.hey.com/kuan/my-typical-working-day-110e376b)
+
+Deliver, on time and on point. We will build a reputable dev team together.
+
+### How much?
+
+Ultimately, most of the pay is calculated on an hourly basis. For the current opening, you can expect a roughy **RM 50/hour** payout, depending on your speed and accuracy. As mentioned, the first few payouts will be project-based. I will estimate the hours required for the task to price each project. The heuristic I used in my estimation was how many hours I assumed myself to complete the same project/task, and then I multiplied by my hourly rate. So, in essence, you will be paid for the hours you took off from me.
+
+Completing these projects will let us learn about our chemistry, shortcomings, progress speed and the adjusted hourly rate for you.
+
+### What is the work?
+
+We are a software house specialising in **frontend development**, slowly moving into **full-stack**. **Flutter** is the primary tool of choice, to build mobile applications, web applications, and potentially desktop applications. We just started a **full-stack** project with one of our client, using **Java** **Quarkus** for the backend job. **ReactJS** is used in maintaining a few clients' ongoing web applications. 
+
+Here are a few recently completed tasks, that fall under the scope of this job:
+
+- Understand the client's requirements posted in our Basecamp project. Ask questions to flush out the details. Implement the feature step by step. From scratch to complete.
+- Without relying on third-party packages, create a custom Widget. e.g. phone number input with country flag, Unique collage of photos, animated carousel indicator, OTP fields, etc.
+- Refactor the codes to become more readable, and create sharable Widgets/Functions after a handful of duplications of codes.
+- Look at the bug report, navigate the codes and fix the bug.
+- Build a tag cloud input, a multiple image picker with cover photo and deletion support, Barcode scanner, etc. For an open source Dart Framework.
+- Deploy Android app via Firebase with Fastlane. Write custom script to automate pushing code from our GitHub into Client's Bitbucket.
+- Surgically replace HelloSign and ZohoSign in a 3 years old outdated ReactJS application.
+
+We will practice most of Effective Dart. Strictly follow the discipline of logic vs presentation. Stateless first, stateful later. Asynchronous is our way of life. Always keep our Widget and integration tests populous and up to date. Test, test and test.
+
+UX and UI designs are adequately provided by our clients, but we need to be sensitive to the result of our implementation. To the best of our ability, and within the boundary given by the original design, we will deliver a GUI that makes sense and looks good. There will be a gap between the expectation of the intended design and the reality of UI programming and Flutter. It is our job to provide suggestions and advice back to the client for adaptation.
+
+My current clients are either very good backend developer or already has a stable running backend. You will not write backend code here, at the moment. The future is unpredictable, and nothing is stopping you from doing anything on your own time.
+
+### Who is in it together?
+
+If you end up joining, the team size will be 6.
+
+A handful of software engineers with one or two QAs should make a beefy team for a good-sized application. As soon as we manage to sign a bigger project that includes UX&UI scope, I will invite a dedicated UX UI designer to the team.
+
+Except for the rare occasion that you might interact with the client's backend programmer or designer, you will be working with less than 5 people, for a long while.
+
+### When can you start?
+
+**Anytime**.
+
+### How to apply?
+
+Prepare an **email**. In it:
+
+1.  Tell me who you are.
+2.  Tell me about one of the software you built during your early programming days, no matter how small or insignificant.
+3.  Do you like any of these? The job, your early project, life as programmer? Why and why not?
+4.  A link to your GitHub or GitLab or any public (or private) repositories that contain your projects and/or contributions.
+
+**Number 4 is crucial**. **Git and the ability to build an app** are our requirements to work here. If you need time to push or create a project, you can ping me with an email first and send me the links when you're done. Exposing your projects is a good thing to do, even if you end up not wanting this job.
+---
+title: "How We Can Collaborate"
+date: 2024-11-10T00:00:00+08:00
+draft: false
+language: en
+description: Simple, No-Nonsense, Hands-Off and Get Results
+---
+
+## One Feature Development Process in a Nutshell
+
+From project requirements to delivery, here's how we typically work together. Client representatives are usually involved in the initial and final stages, while the tech lead oversees the entire process:
+
+1.  **Project Initiation:** The client approaches our tech lead with a project, requirements, or ideas. This is often done through chat messages, occasionally via long-form text, and rarely through a direct video call.
+2.  **Initial Assessment:** The tech lead reviews the request, formulates ideas and questions, and explores alternatives.
+3.  **Clarification and Discussion:** A discussion ensues, usually asynchronously via chat or long-form comments, to refine the scope and clarify any uncertainties.
+4.  **Early Preparation:** Work can commence even as details are being finalized, with the tech lead initiating preparatory tasks based on the project's foundation.
+5.  **Individual Ownership:** A single developer typically handles a task from start to finish, with the tech lead providing support through code reviews, clarifying requirements, and overcoming challenges.
+6.  **QA Involvement:** QA participates early on to prepare test cases, often raising design questions from their unique perspective.
+7.  **Beta Estimation:** A realistic first beta date is agreed upon after the developer has a clear understanding of the task and is roughly halfway through. We avoid committing to unrealistic deadlines and often request flexibility in scope to accommodate potential estimation inaccuracies.
+8.  **Beta Testing and Feedback:** Once the beta version is launched, QA is notified to begin testing. A feedback loop of deploy-test-bug-fix-redeploy is then initiated.
+9.  **Client Testing and Sign-Off:** When the beta reaches a satisfactory state, the client is invited to test it on their own devices and initiate the sign-off process.
+10. **Release:** The client is usually responsible for releasing the build on platforms like Google PlayStore or AppStore. Alternatively, we proceed with the final build process upon the client's signal.
+
+**Notes:**
+
+*   "Client" refers to anyone involved from the client's side, such as the boss, project manager, designer, or backend programmer.
+*   Developers and QAs can make certain decisions independently, but the tech lead oversees all tasks.
+*   Large projects are typically broken down into smaller tasks, completed in phases.
+*   Long-term projects often involve internal tasks within Else Studio, such as automated testing, refactoring, package maintenance, and addressing technical bugs reported on Sentry.
+
+## Key Features of Our Process
+
+### Direct Line to the Tech Lead
+
+Think of our tech lead as your primary point of contact, the central hub for all communication and decision-making. From that initial spark of an idea to the final polished product, the tech lead is there every step of the way. Got a question? Need to explore different approaches? Bounce ideas off the tech lead. Once the path is clear and the requirements are solid, the tech lead sets the wheels in motion, assigning the task to a developer and getting QA started on those all-important test cases.
+
+Throughout the development process, the tech lead maintains a watchful eye, reviewing code, ensuring alignment with your vision, and clearing any roadblocks that might crop up. If things get tricky and your input is needed, the tech lead will be the one to bring it to your attention. And should any critical issues arise, rest assured, the tech lead is ready to tackle them head-on.
+
+We believe in open communication and collaboration, so be prepared to engage in discussions and answer questions. After all, refining our process and delivering exceptional results requires both parties to be actively involved and committed to continuous improvement.
+
+### Asynchronous Teamwork
+
+We're not fans of endless meetings and rigid schedules. We believe in giving our team the freedom to work when and where they're most productive. That's why we've embraced asynchronous communication, ditching the video call marathons and opting for tools like Basecamp or whatever messaging platform you prefer. This keeps the conversation flowing smoothly, minimizes interruptions, and ensures a crystal-clear record of every decision and discussion.
+
+Think of it as a streamlined, turbocharged workflow that frees you from distractions and keeps the project moving full steam ahead. Our team thrives on this flexibility, delivering top-notch results without sacrificing their sanity (or yours!). Everyone sets their own pace, united by a shared commitment to hitting those beta testing deadlines. It's a win-win situation: our team stays energized and focused, and you get a high-quality product delivered efficiently.
+
+### Rapid Feedback Loops
+
+We believe in keeping things moving. Big projects are broken down into smaller, bite-sized chunks, making it easier to track progress and ensure everything stays on track. We aim for a new beta build every 1-2 weeks, giving you a chance to see the product evolve and provide feedback early and often.
+
+And forget about clunky emulators or third-party testing platforms. We insist on making every build directly testable on your own device, giving you a real-world feel for how things are shaping up. Our QA team is always in the loop, ready to jump on any potential beta deployment and put it through its paces.
+
+Of course, no build goes out the door without passing our rigorous internal QA checks. We're committed to delivering a polished, stable product that meets our high standards and exceeds your expectations. This rapid feedback loop ensures we're always on the same page, catching any issues early and keeping the app alive and well in the wild with happy users knowing it will not fail them.
+
+## Additional Advantages
+
+### Flexible to Your Needs
+
+Need to ramp things up quickly?  With a few weeks' notice, we can adjust our team's focus to meet your project's demands. We understand that budgets can be tight, so we offer flexible arrangements, including minimum hour commitments, to ensure your essential tasks stay on track without breaking the bank.  This agility is a direct result of our team's part-time freelance structure, allowing us to adapt quickly and efficiently to your evolving needs.
+
+### Local Expertise, Globally Available
+
+Our roots are firmly planted in Malaysia, with our tech lead calling Kota Kinabalu, Sabah home. But don't let that fool you – we're a globally connected team with experience collaborating across time zones. We're fluent in English, Mandarin, and Malay, and our track record includes successful partnerships with clients as far afield as Austria.  So whether you're next door or across the globe, we're ready to bridge the distance and bring your project to life.
+
+---
+
+[Back to Home](/)
+---
+title: "QA Job"
+date: 2024-11-03T00:00:00+08:00
+draft: false
+language: en
+description: We value our Quality. We respect QA work here! 
+---
+
+### Time
+
+This job has two starting options. You can choose one style and stick with it, or we can switch it up. The important thing is to have consistent QA available to handle our almost weekly build release across various platforms and projects.
+
+The first option is having a fixed shift every week, with these hours committed to whatever testing tasks are available and prioritized. For example, 4 hours on Wednesday, Thursday, and Friday every week. Or 8 hours back-to-back on Sunday and Monday. We'll work it out, and these times can be adjusted to fit your life.
+
+Having a fixed shift achieves two things: you'll have a minimum number of hours to earn weekly, and we'll have consistent QA available to test our builds. If we have more tests and you have the time, you can always take them on. This allows for extra hours and improves our overall output.
+
+The second option is more like a freelance arrangement with a shorter notice to commit testing hours. The team will book your hours a few days in advance (a week if we can predict). We'll try to prepare a beta build before the promised day, and you'll commit certain hours that day or the next to test it. Usually, there will be a close follow-up after the initial submission and test in case of quick fixes or short release timelines.
+
+Even if we only follow the second option, there should still be a minimum number of hours to commit weekly. If there are no new features or bug fixes to verify, there's always regression testing, test case updates, and exploratory testing.
+
+These options aren't meant to be rigid. We can swap them around if the situation calls for it. They're here to act as guidelines for how testing works at Else Studio.
+
+### Pay
+
+We'll start with RM15 per hour for manual testing and RM20 per hour for paperwork (test case generation/modification, bug report enhancement, etc.). You'll track the hours and bill me at the end of each month. I'm anticipating a 2:1 ratio of manual work to paperwork.
+
+### Work
+
+Here are the kinds of testing you'll perform:
+
+- Manual QA on beta/pre-release builds to ensure feature development or bug fixes are complete.
+- Regression testing on existing critical functions and writing/updating test cases for them.
+- Periodic exploratory testing on the whole build for better coverage.
+- Preparing test cases for feature development or bug fixes before or during development.
+- The platforms: Android apps, iOS apps, desktop browsers, and mobile browsers.
+
+At Else Studio, we spend most of our time in an online team collaboration tool called Basecamp. Almost 99% of our communication is through text, images, and recorded videos of app/web usage. I write a lot, our clients write a lot, and I expect you to write just as much to effectively communicate your work, progress, and questions.
+
+If you like reading and writing longer-form text as the primary work communication, you'll like it here. We don't do daily, weekly, or even monthly video calls just to sync up. There are no scrum team meetings for every feature. You'll be presented with a starting written post, with discussions about features/bugs, GUI mockups, or bug reporting videos. From there, you'll work out the test cases and figure out what needs to be tested, verified, or further inquired about to complete the quality assurance process.
+
+The upside is asynchronous communication happening at everyone's convenience. You can check messages later and come back with a question or solution.
+
+### Team
+
+We're still a pretty small software team. You'll be our only QA when you join. But I have plan to improve our QA capacity, might even get two.
+
+### When Can You Start?
+
+Anytime.
+
+### How to Apply?
+
+Prepare an email with the following:
+
+1. Tell me about yourself.
+2. Do you like any of this? Why or why not?
+3. Share one or two stories from your journey as a tester.
+4. What mobile devices and computers (Windows/Mac/Linux) do you have access to?
+---
+title: "The Else Studio Way"
+date: 2024-11-10T00:00:00+08:00
+draft: false
+language: en
+description: Building Better Apps Through Collaboration and Efficiency
+---
+
+### Building Apps That Solve Your Problems
+
+We're not just coders; we're builders. We love creating things that make a difference in the real world. Whether it's an app that streamlines a business process, connects people in new ways, or simply brings a bit of joy to users' lives, we thrive on seeing our work have a tangible impact.
+
+Of course, not every project is going to revolutionize the world. But even for the smaller challenges, we bring our A-game. We're passionate about crafting well-designed, functional, and beautiful apps that solve real problems for real people.
+
+Want to see what we've accomplished? Head over to our portfolio and check out the results for yourself.  Actions speak louder than words, right?
+
+
+### Direct Communication, No-Nonsense Understanding
+
+You won't be explaining things to some project manager who always tells you "let me get back to my team first."  Nope. You talk directly to me, the tech lead.  I've spent the last 15 years in the trenches with designers, business folks, backend gurus, and everyone in between.
+
+That means I've seen it all—from crazy deadlines to impossible design requests.  I get the business side, the tech hurdles, and what it takes to get an app out the door and into the hands of users.
+
+So, while I might not be a walking encyclopedia of programming knowledge, I know enough to find the right solution for pretty much anything that comes up when launching your app.
+
+### Calm, Consistent, and Reliable Software Delivery
+
+At Else Studio, we don't believe in "fire drills." We're not about that frantic, "drop everything and fix it now" kind of development. We prefer a calmer approach, where we can focus on building quality software without the constant stress of emergencies.
+
+Of course, we understand that sometimes urgent situations arise. We're happy to accommodate rush jobs when necessary, but even those go through our rigorous quality assurance process.
+
+Our typical workflow involves assigning tasks with reasonable deadlines (usually no more than two weeks) and allowing developers to work at their own pace. This ensures a healthy and productive environment where everyone can do their best work.
+
+We believe that calm minds build better software. You get reliable results without the drama.
+
+### Efficiency in Every Step
+
+No multitasking mayhem here. Our developers pick a task, lock in, and see it through. Full focus, maximum results.  We keep things moving, updating the team on progress, shouting out any roadblocks, and getting those builds ready for QA. No time wasted on endless meetings or pointless reports. Just heads-down, getting-it-done action.
+
+We're always looking for ways to shave time off the clock. Need a new build in the Play Store?  Tag the commit, push it, and boom—QA's got it in 20 minutes. No manual uploads, no waiting around.
+
+And we don't let things get messy. Code getting tangled? Refactor it. Packages outdated? Update 'em. We tackle those little issues before they become big headaches.  Consider it preventative maintenance for your project.
+
+Speaking of keeping things lean, we only use two tools for online collaboration: Basecamp and GitHub. All communication happens in Basecamp. That's it.  Two tools.  If that doesn't tell you how well-oiled our team is, nothing will.
+
+All our features are backed by comprehensive test cases for manual testing, and we conduct thorough regression testing to ensure stability. Backend APIs undergo rigorous unit testing before deployment.
+
+### Knowing When to Say "No"
+
+We're not afraid to turn down a project.  It's not that we're lazy or don't know what we're doing.  But sometimes, saying "no" is the best way to help our clients.  We're honest about what we can handle, and we won't take on something if it's just not feasible or if the expectations are out of this world.
+
+Saying "no" might seem weird, but it lets us focus on what we're good at.  It also gives us a chance to talk about other ways to solve the problem or maybe even rethink the problem itself.
+
+We're not in this for a quick buck. We want to build long-term relationships and deliver real value. And sometimes, that starts by saying "no" to the wrong projects.
+
+---
+
+[Back to Home](/)
+---
+title: "SpeedHome Mobile App - Plus"
+date: 2024-11-10T00:00:00+08:00
+draft: false
+language: en
+description:  
+---
+
+Continous development and maintaing post launch
+
+- Brand new feature with new API, another layer of collaboration with backend API development.
+- Taking on QA. More hands off approach.
+- Tigher timeline with greater expectation.
+- Moment of scaling down.
+- Mixing refactoring into feature development.
+---
+title: "Rewriting SpeedHome Mobile App"
+date: 2024-11-15T00:00:00+08:00
+draft: false
+language: en
+description: A Lean Team, a Tight Deadline, and a Happy Client
+---
+
+## Turning Challenges into a Seamless Transition
+
+This project wasn't simply about building a new app; it was about orchestrating a seamless transition for SpeedHome's users. In just six months, our lean team, consisting of a semi-full-time tech lead and 2-3 skilled part-time Flutter developers, delivered a complete mobile app frontend for iOS and Android.  We integrated seamlessly with their existing backend API, powering features like:
+
+*   Secure Sign Up/Sign In with phone number and SMS OTP
+*   Real-time chat with SocketIO 1.0, complete with lobbies, image and video sharing, private messaging, and clickable links
+*   A comprehensive 10-step form for creating property listings, including local drafts and seamless video and image handling
+*   Advanced search functionality with autocomplete, filters, and pagination for rental properties
+*   Push notifications, Firebase event tracking, and remote configuration for enhanced user engagement
+*   Robust CI/CD pipelines for effortless deployment of beta and production builds
+
+This is just a snapshot of the extensive frontend functionality we crafted for the new SpeedHome app.  But the real magic happened during the launch. We didn't just release a new version; we replaced the entire app overnight, seamlessly transitioning users to a brand new experience without a single hiccup. This flawless execution speaks volumes about our ability to deliver complex projects on time and within budget, even with a lean team. And we didn't stop there. In the following months, we continued to enhance the app, adding deferred features, ensuring complete parity with the old app, and introducing exciting new additions.
+
+
+## Overcoming Knowledge Gaps and Communication Hurdles
+
+While this was a greenfield project for Else Studio, SpeedHome had a lot on their plate. Managing web applications, backend infrastructure, IT operations, and customer service left them with limited resources to dedicate to knowledge transfer.
+
+Undeterred, we took the initiative to bridge the gaps:
+
+*   We crafted concise, easily answerable questions to elicit crucial information.
+*   We delved into their existing application to understand their workflows.
+*   We conducted black-box testing of their API to ensure accurate integration.
+*   We navigated their legacy ReactJS codebase to understand their current API usage.
+
+This collaborative approach, coupled with our commitment to clear communication, resulted in a valuable learning experience for both parties. We emerged with a refined process, prioritizing API specifications, early Postman testing, comprehensive test cases, and detailed wireframes. This ensures efficient collaboration and successful project delivery, even with limited client availability.
+
+
+## Building a Dynamic Team for Optimal Flexibility
+
+Scaling our team amidst a demanding project timeline was a bold move, but we believe in embracing challenges. Our flexible, part-time freelance model allowed us to quickly adapt to SpeedHome's needs, scaling resources up or down as required. This meant:
+
+*   Seamlessly matching SpeedHome's rhythm: We adjusted our efforts based on their capacity, ensuring efficient resource allocation and cost-effectiveness.
+*   Rapid onboarding of new talent:  Forget the drawn-out hiring processes and endless interviews. We focus on finding talented individuals who can get the job done. A quick email exchange, a real-world demo task, and they're in. This translates to faster project kickoffs and quicker delivery.
+*   Uninterrupted workflow: Asynchronous communication freed us from the constraints of traditional work hours, allowing continuous progress and optimal productivity.
+
+This experience validated our belief in building a dynamic, results-oriented team that can outperform traditional full-time setups, providing a highly efficient and cost-effective solution.
+
+
+## Key Takeaways:
+
+This case study demonstrates our ability to:
+
+*   Deliver complex mobile applications within tight deadlines.
+*   Effectively navigate knowledge gaps and communication challenges.
+*   Build and manage a flexible team that adapts to client needs while ensuring cost-efficiency.
+*   Ensure a smooth transition and positive user experience.
+*   Develop a streamlined process for gathering requirements and delivering successful outcomes, even with limited client availability.
+baseURL: ''
+title: Else Studio - Software House
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+pagination:
+  pagerSize: 6
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: Else Studio
+  logo_url: "images/pages/logo.jpg"
+  description: "App and Software development by Malaysia local tech"
+  disable_theme_toggle: true
+  disable_stay_uptodate: true
+  logo_disclaimer: "The logo is masterfully crafted by our designer."
+  image_disclaimer: "SVGs from https://www.svgrepo.com. All other images are AI generated with Gemini Advanced."
+
+  nav:
+    title: "Else Studio"
+    subtitle: "Software House"
+
+  hero:
+    heading: "Hire a tech lead, get a team"
+    subheading: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
+  
+  p1:
+    heading: "What We Excel At"
+    content:
+      - title: "Building Apps That Solve Your Problems"
+        image: "images/pages/p1-build.jpg"
+        text: "We just love building stuff, especially things that solve real problems, make people happy, and look beautiful. Check out our portfolio and see what we've done so far!"
+        link: "/way#building-apps-that-solve-your-problems"
+        link_text: "Tell me more"
+      - title: "Direct Communication, No-Nonsense Understanding"
+        image: "images/pages/p1-listen.jpg"
+        text: "Forget endless meetings and \"let me get back to you\" responses. You'll communicate directly with our experienced tech lead, who understands the ins and outs of software development from every angle. We cut through the jargon and get straight to building solutions, ensuring your project is understood and your business needs are met."
+        link: "/way#direct-communication-no-nonsense-understanding"
+        link_text: "Tell me more"
+      - title: "Calm, Consistent, and Reliable Software Delivery"
+        image: "images/pages/p1-calm.jpg"
+        text: "We avoid the \"fire drill\" mentality and focus on a calm, sustainable development process. This means consistent progress, fewer emergencies, and on-time delivery without sacrificing quality or burning out the team."
+        link: "/way#calm-consistent-and-reliable-software-delivery"
+        link_text: "Tell me more"
+      - title: "Efficiency in Every Step"
+        image: "images/pages/p1-efficient.jpg"
+        text: "We're obsessed with efficiency. Our developers focus on one task at a time, giving their full attention to ensure quality results.  We streamline everything, from automated builds to proactive code refactoring.  And with just Basecamp and GitHub for collaboration, we minimize distractions and maximize productivity. All features undergo rigorous manual and automated testing for maximum reliability."
+        link: "/way#efficiency-in-every-step"
+        link_text: "Tell me more"
+      - title: "Knowing When to Say \"No\""
+        image: "images/pages/p1-no.jpg"
+        text: "We're not afraid to say \"no\" when it makes sense.  We're upfront about our capabilities and won't take on a project if it's beyond our capacity or comes with unrealistic expectations. This keeps us focused on projects where we can deliver real value and achieve the best possible outcomes for our clients.  It's about setting realistic goals and building long-term relationships, not just chasing quick wins."
+        link: "/way#knowing-when-to-say-no"
+        link_text: "Tell me more"
+        
+  p2:
+    heading: "How We Collaborate"
+    subheading: "We believe in a smooth, efficient, and enjoyable collaboration experience. Here's how we make that happen:"
+    image: "images/pages/p2-group.jpg"
+    more:
+        text: "Want to learn more?"
+        link_text: "Dive deep into collaboration."
+        link: "/how"
+    content:
+      - title: "Direct Line to the Tech Lead"
+        image: "images/pages/p2-direct.svg"
+        text: "You'll be working directly with the tech lead (that's me!), not a project manager or intermediary. This means faster communication, clearer understanding, and quicker decisions."
+      - title: "Asynchronous Teamwork"
+        image: "images/pages/p2-async.svg"
+        text: "We embrace asynchronous communication to keep things moving smoothly without constant meetings.  We'll keep you updated on progress and address any roadblocks promptly, but we won't bog you down with unnecessary sync-ups."
+      - title: "Flexible to Your Needs"
+        image: "images/pages/p2-flexible.svg"
+        text: "Need to scale up or down? No problem. We can adjust our commitment to match your business rhythm. Slow month? We'll keep the essentials running. Big launch coming up? We'll crank up the gears and get it done."
+      - title: "Rapid Feedback Loops"
+        image: "images/pages/p2-local.svg"
+        text: "We prioritize quick feedback to keep projects on track. We'll set up a clear and easy way for you to sign off on builds early and often, ensuring a faster product cycle and happier everyone."
+      - title: "Local Expertise. Globally Available"
+        image: "images/pages/p2-loop.svg"
+        text: "We're a Malaysian team based in the country.  We're fluent in English, Mandarin, and Malay, so communication is a breeze."
+        
+  p3:
+    heading: "What We've Delivered"
+    subheading: "We've tackled all sorts of software challenges. Need a mobile app rebuilt for tens of thousands of users? Done that.  Want to bring your app idea to life from scratch?  We've got you covered.  Even keeping those old web apps running smoothly—we've been there, done that.  Here's a glimpse of what we can do:"
+    content:
+      - title: "Revamped a Mobile App for a Huge User Base"
+        image: "images/pages/p3-zd.jpg"
+        case_study:
+          - link_text: "Case study: Rewrite SpeedHome"
+            link: "/zd"
+          - link_text: "Case study: SpeedHome++"
+            link: "/zd-plus"
+        text: "Our biggest win? Replacing an outdated mobile app with a modern, high-performing version for a business with tens of thousands of users. Smoother, more visually appealing, and no more crashes. (This was our founding mission, and we aced it!)"
+      - title: "Turned App Ideas into Reality"
+        image: "images/pages/p3-ke.jpg"
+        text: "We've helped businesses take their app dreams from concept to launch, handling everything from design and UX to development and QA. We even take care of the admin panel, so you can focus on what matters most."
+      - title: "Kept Legacy Systems Alive (and Kicking)"
+        image: "images/pages/p3-legacy.jpg"
+        text: "We've successfully added new features to legacy web applications without causing any explosions. (But honestly, sometimes a rewrite is the best way forward. We can help with that too.)"
+      - title: "Built an Open-Source Dart Framework"
+        image: "images/pages/p3-badger.jpg"
+        text: "We created Badger, a Dart framework for enterprise applications. Sponsored by itbh, and underwent a complete rewrite from AngularDart into Flutter Web, we are working hard to making it available to the public soon. At this writing, at least one real-world web application is built and deployed for public use. It's already out there making a difference!"
+      - title: "Delivered (Mostly) Bug-Free Code"
+        image: "images/pages/p3-bug.jpg"
+        text: "All our work goes through rigorous in-house QA with test cases written before we even start coding.  We hate bugs as much as you do."
+
+  contact:
+    title: "Get in touch"
+    preemail: "For a quick response, email "
+    postemail: " (usually within hours!).  Or, if you prefer, leave your email and a message here."
+        
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/Else-Studio'
+    
+
+menu:
+  main:
+    - identifier: way
+      name: Why Us?
+      url: /way
+      weight: 10
+    - identifier: collaborate
+      name: Collab
+      url: /how
+      weight: 20
+    - identifier: jobs
+      pre: dropdown
+      name: Jobs
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+  jobs:
+    - identifier: dev
+      name: Developer
+      url: /dev/
+      weight: 10
+    - identifier: qa
+      name: QA
+      url: /qa/
+      weight: 20
+  footer:
+    - identifier: dev_job
+      name: Job for Dev
+      url: /dev/
+      weight: 10
+    - identifier: qa_job
+      name: Job for QA
+      url: /qa/
+      weight: 10
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.114.0"

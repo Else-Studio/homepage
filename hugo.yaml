@@ -161,14 +161,27 @@ menu:
       name: Collab
       url: /how
       weight: 20
+    - identifier: cases
+      pre: dropdown
+      name: Case Studies
+      weight: 30
     - identifier: jobs
       pre: dropdown
       name: Jobs
-      weight: 30
+      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
+  cases:
+    - identifier: zd
+      name: Rewrite SpeedHome
+      url: /zd
+      weight: 10
+    - identifier: zd-plus
+      name: SpeedHome++
+      url: /zd-plus
+      weight: 20
   jobs:
     - identifier: dev
       name: Developer
@@ -179,14 +192,34 @@ menu:
       url: /qa/
       weight: 20
   footer:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: way
+      name: Why Us?
+      url: /way
+      weight: 10
+    - identifier: collaborate
+      name: Collab
+      url: /how
+      weight: 20
+    - identifier: zd
+      name: Rewrite SpeedHome
+      url: /zd
+      weight: 30
+    - identifier: zd-plus
+      name: SpeedHome++
+      url: /zd-plus
+      weight: 31
     - identifier: dev_job
       name: Job for Dev
       url: /dev/
-      weight: 10
+      weight: 40
     - identifier: qa_job
       name: Job for QA
       url: /qa/
-      weight: 10
+      weight: 41
     - identifier: contact
       name: Contact
       url: /contact/

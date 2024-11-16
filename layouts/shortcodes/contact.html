@@ -1,27 +1,28 @@
-<section class="pt-4 pb-12 lg:pb-24">
-  <div class="max-w-screen-md px-4 mx-auto">
-      <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
+{{ $hint := .Get "hint" }}
+<section class="pv-4">
+  <div class=" mx-auto md:mx-0">
+      <h2 class="text-2xl font-semibold text-gray-800">
         {{ .Site.Params.contact.title }}
       </h2>
-      <p class="mb-8 font-light text-gray-900 lg:mb-16 sm:text-xl">
+      <p class="mb-2 font-light text-gray-900">
         {{ .Site.Params.contact.preemail }}
         <a href="mailto:kuan@hey.com">kuan@hey.com</a>
         {{ .Site.Params.contact.postemail }}
       </p>
-      <form name="contact" action="https://formsubmit.co/kuan@hey.com" method="POST" class="space-y-8">
-          <div class="my-4">
+      <form name="contact" action="https://formsubmit.co/kuan@hey.com" method="POST" class="max-w-screen-md">
+          <div class="my-2">
               <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Your Email:</strong></label>
               <input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-amber-500 focus:border-amber-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500 dark:shadow-sm-light" placeholder="name@example.com" required>
           </div>
-          <div class="my-4">
+          <div class="my-2">
               <label for="subject" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Subject:</strong></label>
-              <input type="text" name="subject" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-amber-500 focus:border-amber-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500 dark:shadow-sm-light" placeholder="Has a job? Or want the job?" required>
+              <input type="text" name="subject" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-amber-500 focus:border-amber-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500 dark:shadow-sm-light" placeholder="{{ $hint }}" required>
           </div>
-          <div class="my-4 sm:col-span-2">
+          <div class="my-2 sm:col-span-2">
               <label for="message" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-400"><strong>Your message:</strong></label>
               <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-amber-500 focus:border-amber-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500" placeholder="What's up?"></textarea>
           </div>
-          <div class="mt-6 lg:pb-16">
+          <div class="mt-6 ">
              <button type="submit" class="px-5 py-3 font-bold text-center text-white bg-primary-500 rounded-lg text-md sm:w-fit hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-amber-300 ">Send Message</button>
           </div>
       </form>

@@ -64,4 +64,8 @@ Our roots are firmly planted in Malaysia, with our tech lead calling Kota Kinaba
 
 ---
 
+{{<contact hint="Your idea/project/question">}}
+
+---
+
 [Back to Home](/)

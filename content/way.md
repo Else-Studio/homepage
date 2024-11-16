@@ -55,4 +55,6 @@ We're not in this for a quick buck. We want to build long-term relationships and
 
 ---
 
+[How we collaborate with you](/how)
+
 [Back to Home](/)

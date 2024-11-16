@@ -66,3 +66,12 @@ Prepare an **email**. In it:
 4.  A link to your GitHub or GitLab or any public (or private) repositories that contain your projects and/or contributions.
 
 **Number 4 is crucial**. **Git and the ability to build an app** are our requirements to work here. If you need time to push or create a project, you can ping me with an email first and send me the links when you're done. Exposing your projects is a good thing to do, even if you end up not wanting this job.
+
+---
+
+{{<contact hint="I'm here for the developer job!">}}
+
+---
+
+[Back to Home](/)
+

@@ -56,3 +56,11 @@ Prepare an email with the following:
 2. Do you like any of this? Why or why not?
 3. Share one or two stories from your journey as a tester.
 4. What mobile devices and computers (Windows/Mac/Linux) do you have access to?
+
+---
+
+{{<contact hint="I'm here for the QA job!">}}
+
+---
+
+[Back to Home](/)
