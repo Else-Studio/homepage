@@ -57,6 +57,6 @@ This case study demonstrates our ability to:
 
 ---
 
-[The story continued...](/zd-plus)
+[The Story Continued...](/zd-plus)
 
 [Back to Home](/)
