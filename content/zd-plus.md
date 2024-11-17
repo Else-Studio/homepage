@@ -6,6 +6,8 @@ language: en
 description: Continuous development and maintaining post-launch
 ---
 
+{{< apps  >}}
+
 ## A Steady Stream of Success: Delivering Value Consistently
 
 We've been at this for a while now—13 months to be exact. In that time, we've shipped a ton of updates, big and small. 49 production releases, 147 beta releases, over 2000 commits, and more than 300 pull requests. That's a lot of code! But here's the kicker: zero outages caused by our app releases. 

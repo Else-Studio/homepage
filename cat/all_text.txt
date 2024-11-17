@@ -6,7 +6,7 @@ language: en
 description: Find Us
 ---
 
-<!-- @format -->
+{{<contact hint="Has a job? Wants a job? Just asking?">}}
 ---
 title: "Dev Job"
 date: 2024-11-03T00:00:00+08:00
@@ -75,6 +75,15 @@ Prepare an **email**. In it:
 4.  A link to your GitHub or GitLab or any public (or private) repositories that contain your projects and/or contributions.
 
 **Number 4 is crucial**. **Git and the ability to build an app** are our requirements to work here. If you need time to push or create a project, you can ping me with an email first and send me the links when you're done. Exposing your projects is a good thing to do, even if you end up not wanting this job.
+
+---
+
+{{<contact hint="I'm here for the developer job!">}}
+
+---
+
+[Back to Home](/)
+
 ---
 title: "How We Can Collaborate"
 date: 2024-11-10T00:00:00+08:00
@@ -141,6 +150,10 @@ Our roots are firmly planted in Malaysia, with our tech lead calling Kota Kinaba
 
 ---
 
+{{<contact hint="Your idea/project/question">}}
+
+---
+
 [Back to Home](/)
 ---
 title: "QA Job"
@@ -200,6 +213,14 @@ Prepare an email with the following:
 2. Do you like any of this? Why or why not?
 3. Share one or two stories from your journey as a tester.
 4. What mobile devices and computers (Windows/Mac/Linux) do you have access to?
+
+---
+
+{{<contact hint="I'm here for the QA job!">}}
+
+---
+
+[Back to Home](/)
 ---
 title: "The Else Studio Way"
 date: 2024-11-10T00:00:00+08:00
@@ -257,22 +278,60 @@ We're not in this for a quick buck. We want to build long-term relationships and
 
 ---
 
+[How we collaborate with you](/how)
+
 [Back to Home](/)
 ---
 title: "SpeedHome Mobile App - Plus"
 date: 2024-11-10T00:00:00+08:00
 draft: false
 language: en
-description:  
+description: Continuous development and maintaining post-launch
 ---
 
-Continous development and maintaing post launch
+## A Steady Stream of Success: Delivering Value Consistently
 
-- Brand new feature with new API, another layer of collaboration with backend API development.
-- Taking on QA. More hands off approach.
-- Tigher timeline with greater expectation.
-- Moment of scaling down.
-- Mixing refactoring into feature development.
+We've been at this for a while now—13 months to be exact. In that time, we've shipped a ton of updates, big and small. 49 production releases, 147 beta releases, over 2000 commits, and more than 300 pull requests. That's a lot of code! But here's the kicker: zero outages caused by our app releases. 
+
+We're proud of our track record. It shows our commitment to delivering value consistently and keeping things running smoothly for SpeedHome and their users.
+
+## New Territory: Building Stuff We've Never Built Before
+
+This wasn't just about adding a new coat of paint to old features. We dove headfirst into creating entirely new things for SpeedHome's app—stuff they'd never had before. No more "make it like the old one, but slightly different." We were in uncharted territory, starting with just rough ideas and basic sketches.
+
+We were involved from the get-go, early enough to chime in on how things should look and feel for the user, and how the API could work to ease our workload later. This meant working closely with their backend team, figuring out how to use their brand new API. Which, let's be honest, was a bit like walking a tightrope—those APIs hadn't been tested in the wild yet, so we had to be extra careful. We also needed to work even closer with the design team since they liked to provide finalized Figma GUI mockups. Matching those high-fidelity visuals with reality is always tough and requires a lot of negotiation and tolerance.
+
+Since we were the ones putting all the pieces together—the backend, the design, the frontend—we were in the best position to spot potential problems. Catching mismatches between the design and the backend wasn't just our responsibility; it was the only way to make our lives easier down the road.
+
+The goalposts shifted too. It wasn't just about matching the old way of doing things; it was about solving their business needs in a whole new way. Sometimes, those needs were a bit fuzzy, but we always managed to nail it. This whole phase proved we could roll with the punches, tackle new challenges head-on, and deliver the goods, even when things got a little unpredictable.
+
+## Building a Team That Gets Stuff Done
+
+We doubled down on our commitment to efficient teamwork and streamlined processes. We knew that giving our developers more freedom and a hands-off approach would not only make them happier but also help them build features and fix bugs faster. This also freed up the tech lead to focus on the bigger picture and discuss strategy with the client. And let's face it, nobody likes to be micromanaged. This approach took that worry off the client's plate, allowing them to trust us to deliver consistently.
+
+Our rock-solid code foundation was a key ingredient in this efficient workflow. By keeping our code clean and organized, we made it easy for everyone—new and experienced developers alike—to jump in and get things done. This meant most tasks could be handled by a single developer, with the tech lead there for backup when needed.
+
+On the QA front, we had to hustle to get a dedicated budget for manual testing, and finding the right QA pro wasn't a walk in the park. But we stuck with it, and it paid off. Once we had a skilled QA on board, with their detailed test cases and timely testing, ElseStudio ended up handling almost all the testing work. This was a huge win for the client's project managers, freeing them up to focus on other things.
+
+This whole experience proved that a well-structured team and streamlined processes are a recipe for success. By giving our team autonomy, building a strong code foundation, and prioritizing thorough QA, we delivered high-quality results without breaking a sweat. It showed the client we're serious about getting things done right.
+
+## Adapting to Change: Rolling with the Punches 
+
+Businesses change, and priorities shift. That's the reality. In this case, SpeedHome needed to pump the brakes on app development and focus their attention elsewhere. We had to downshift—hard. We limited our work to only the essentials, stepping in when critical situations needed a frontend fix.
+
+It wasn't easy, but our flexible team structure allowed us to weather the storm. Everyone was able to adapt and get by during the slowdown. And when SpeedHome was ready to hit the gas again, we were right there with them, ramping back up to full speed in less than a month. This demonstrated our ability to adapt to changing circumstances and remain a reliable partner, even when faced with unexpected turns.
+
+## Keeping the Engine Running: Maintenance and Stability
+
+We all know that shipping new features is important, but keeping the existing app stable and running smoothly is just as crucial. We made sure to mix in regular maintenance and refactoring work alongside new feature development. This meant finding those quieter moments between big releases to upgrade packages, update tools, and squash those pesky bugs that Sentry caught.
+
+Having a dedicated QA professional on board made refactoring and upgrades much safer. Their regression testing on each release gave us the confidence to make changes without worrying about breaking things. This commitment to stability ensured a smooth user experience and prevented any major hiccups along the way.
+
+---
+
+[The Beginning](/zd)
+
+[Back to Home](/)
 ---
 title: "Rewriting SpeedHome Mobile App"
 date: 2024-11-15T00:00:00+08:00
@@ -329,6 +388,12 @@ This case study demonstrates our ability to:
 *   Build and manage a flexible team that adapts to client needs while ensuring cost-efficiency.
 *   Ensure a smooth transition and positive user experience.
 *   Develop a streamlined process for gathering requirements and delivering successful outcomes, even with limited client availability.
+
+---
+
+[The Story Continued...](/zd-plus)
+
+[Back to Home](/)
 baseURL: ''
 title: Else Studio - Software House
 languageCode: en-us
@@ -378,6 +443,7 @@ markup:
 params:
   author: Else Studio
   logo_url: "images/pages/logo.jpg"
+  og_image: "images/pages/logo.jpg"
   description: "App and Software development by Malaysia local tech"
   disable_theme_toggle: true
   disable_stay_uptodate: true
@@ -460,15 +526,24 @@ params:
         text: "Our biggest win? Replacing an outdated mobile app with a modern, high-performing version for a business with tens of thousands of users. Smoother, more visually appealing, and no more crashes. (This was our founding mission, and we aced it!)"
       - title: "Turned App Ideas into Reality"
         image: "images/pages/p3-ke.jpg"
+        case_study:
+          - link_text: "Still a secret..."
         text: "We've helped businesses take their app dreams from concept to launch, handling everything from design and UX to development and QA. We even take care of the admin panel, so you can focus on what matters most."
       - title: "Kept Legacy Systems Alive (and Kicking)"
         image: "images/pages/p3-legacy.jpg"
+        case_study:
+          - link_text: "Post in progress..."
         text: "We've successfully added new features to legacy web applications without causing any explosions. (But honestly, sometimes a rewrite is the best way forward. We can help with that too.)"
       - title: "Built an Open-Source Dart Framework"
         image: "images/pages/p3-badger.jpg"
+        case_study:
+          - link_text: "Almost ready to launch..."
         text: "We created Badger, a Dart framework for enterprise applications. Sponsored by itbh, and underwent a complete rewrite from AngularDart into Flutter Web, we are working hard to making it available to the public soon. At this writing, at least one real-world web application is built and deployed for public use. It's already out there making a difference!"
       - title: "Delivered (Mostly) Bug-Free Code"
         image: "images/pages/p3-bug.jpg"
+        case_study:
+          - link_text: "Case study: SpeedHome++"
+            link: "/zd-plus#keeping-the-engine-running-maintenance-and-stability"
         text: "All our work goes through rigorous in-house QA with test cases written before we even start coding.  We hate bugs as much as you do."
 
   contact:
@@ -492,14 +567,27 @@ menu:
       name: Collab
       url: /how
       weight: 20
+    - identifier: cases
+      pre: dropdown
+      name: Case Studies
+      weight: 30
     - identifier: jobs
       pre: dropdown
       name: Jobs
-      weight: 30
+      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
+  cases:
+    - identifier: zd
+      name: Rewrite SpeedHome
+      url: /zd
+      weight: 10
+    - identifier: zd-plus
+      name: SpeedHome++
+      url: /zd-plus
+      weight: 20
   jobs:
     - identifier: dev
       name: Developer
@@ -510,14 +598,34 @@ menu:
       url: /qa/
       weight: 20
   footer:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: way
+      name: Why Us?
+      url: /way
+      weight: 10
+    - identifier: collaborate
+      name: Collab
+      url: /how
+      weight: 20
+    - identifier: zd
+      name: Rewrite SpeedHome
+      url: /zd
+      weight: 30
+    - identifier: zd-plus
+      name: SpeedHome++
+      url: /zd-plus
+      weight: 31
     - identifier: dev_job
       name: Job for Dev
       url: /dev/
-      weight: 10
+      weight: 40
     - identifier: qa_job
       name: Job for QA
       url: /qa/
-      weight: 10
+      weight: 41
     - identifier: contact
       name: Contact
       url: /contact/

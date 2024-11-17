@@ -6,6 +6,8 @@ language: en
 description: A Lean Team, a Tight Deadline, and a Happy Client
 ---
 
+{{< apps  >}}
+
 ## Turning Challenges into a Seamless Transition
 
 This project wasn't simply about building a new app; it was about orchestrating a seamless transition for SpeedHome's users. In just six months, our lean team, consisting of a semi-full-time tech lead and 2-3 skilled part-time Flutter developers, delivered a complete mobile app frontend for iOS and Android.  We integrated seamlessly with their existing backend API, powering features like:
