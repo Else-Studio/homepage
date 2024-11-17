@@ -129,15 +129,24 @@ params:
         text: "Our biggest win? Replacing an outdated mobile app with a modern, high-performing version for a business with tens of thousands of users. Smoother, more visually appealing, and no more crashes. (This was our founding mission, and we aced it!)"
       - title: "Turned App Ideas into Reality"
         image: "images/pages/p3-ke.jpg"
+        case_study:
+          - link_text: "Still a secret..."
         text: "We've helped businesses take their app dreams from concept to launch, handling everything from design and UX to development and QA. We even take care of the admin panel, so you can focus on what matters most."
       - title: "Kept Legacy Systems Alive (and Kicking)"
         image: "images/pages/p3-legacy.jpg"
+        case_study:
+          - link_text: "Post in progress..."
         text: "We've successfully added new features to legacy web applications without causing any explosions. (But honestly, sometimes a rewrite is the best way forward. We can help with that too.)"
       - title: "Built an Open-Source Dart Framework"
         image: "images/pages/p3-badger.jpg"
+        case_study:
+          - link_text: "Almost ready to launch..."
         text: "We created Badger, a Dart framework for enterprise applications. Sponsored by itbh, and underwent a complete rewrite from AngularDart into Flutter Web, we are working hard to making it available to the public soon. At this writing, at least one real-world web application is built and deployed for public use. It's already out there making a difference!"
       - title: "Delivered (Mostly) Bug-Free Code"
         image: "images/pages/p3-bug.jpg"
+        case_study:
+          - link_text: "Case study: SpeedHome++"
+            link: "/zd-plus#keeping-the-engine-running-maintenance-and-stability"
         text: "All our work goes through rigorous in-house QA with test cases written before we even start coding.  We hate bugs as much as you do."
 
   contact:
