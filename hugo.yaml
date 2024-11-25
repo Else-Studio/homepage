@@ -159,6 +159,18 @@ params:
     github:
       enabled: true
       url: 'https://github.com/Else-Studio'
+    twitter:
+      enabled: true
+      url: 'https://x.com/yuankuan_'
+    linkedin:
+      enabled: true
+      url: 'https://www.linkedin.com/company/elsestudio/?viewAsMember=true'
+    goodfirms:
+      enabled: true
+      url: 'https://www.goodfirms.co/company/else-studio'
+    clutch:
+      enabled: true
+      url: 'https://clutch.co/profile/else-studio'
     
 
 menu:
