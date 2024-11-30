@@ -6,6 +6,9 @@
 <meta name="twitter:title" content="{{ .Title }}" />
 <meta itemprop="name" content="{{ .Title }}" />
 <meta name="application-name" content="{{ .Title }}" />
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
 <meta property="og:description"
       content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
@@ -14,3 +17,77 @@
 <meta property="og:image" content="{{ if .Params.featured_image }}{{ .Params.featured_image | relURL }}{{ else }}{{ .Site.Params.og_image | relURL }}{{ end }}" />
 <meta property="og:image:secure_url" content="{{ if .Params.featured_image }}{{ .Params.featured_image | absURL }}{{ else }}{{ .Site.Params.og_image | absURL }}{{ end }}" />
 <meta property="og:type" content="{{if .IsHome}}website{{else}}article{{end}}" />
+
+<!-- Twitter OG -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@yuankuan_">
+<meta name="twitter:creator" content="@yuankuan_">
+<meta name="twitter:image" content="{{ if .Params.featured_image }}{{ .Params.featured_image | relURL }}{{ else }}{{ .Site.Params.og_image | relURL }}{{ end }}">
+
+<!-- Keywords -->
+<meta name="keywords" content="software development, app development, Malaysia tech, tech lead, efficient development, reliable software, bug-free code, Flutter, Dart, Badger framework">
+
+<!-- JSON LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Else Studio",
+  "url": "https://elsestudio.dev",
+  "logo": "https://elsestudio.dev/assets/logo.png",
+  "sameAs": [
+    "https://x.com/yuankuan_",
+    "https://github.com/Else-Studio",
+    "https://www.linkedin.com/company/elsestudio/?viewAsMember=true",
+    "https://www.goodfirms.co/company/else-studio",
+    "https://clutch.co/profile/else-studio"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+60-1110522628",
+    "email": "kuan@hey.com",
+    "contactType": "Ask me anything"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kota Kinabalu",
+    "addressRegion": "Sabah",
+    "addressCountry": "Malaysia"
+  },
+  "serviceArea": {
+    "@type": "AdministrativeArea",
+    "name": "Worldwide"
+  },
+  "description": "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Software Development Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mobile App Development",
+          "description": "We build native iOS and Android apps using Flutter."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Web App Development",
+          "description": "We develop modern and responsive web applications."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Software Consulting",
+          "description": "We provide expert guidance on software development projects."
+        }
+      }
+    ]
+  }
+}
+</script>

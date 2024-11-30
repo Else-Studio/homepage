@@ -47,7 +47,7 @@ markup:
 params:
   author: Else Studio
   logo_url: "images/pages/logo.jpg"
-  og_image: "images/pages/logo.jpg"
+  og_image: "assets/og_image.png"
   description: "App and Software development by Malaysia local tech"
   disable_theme_toggle: true
   disable_stay_uptodate: true
