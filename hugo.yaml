@@ -47,7 +47,8 @@ markup:
 params:
   author: Else Studio
   logo_url: "images/pages/logo.jpg"
-  og_image: "assets/og_image.png"
+  og_image: "https://elsestudio.dev/assets/og_image.png"
+  og_description: "A small Malaysian tech team tackling interesting software problems—big or small, simple or complex. You'll work directly with our singular tech lead (that's me!), and together we'll find the right solution for your needs."
   description: "App and Software development by Malaysia local tech"
   disable_theme_toggle: true
   disable_stay_uptodate: true

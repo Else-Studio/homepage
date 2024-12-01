@@ -10,19 +10,17 @@
 
 <!-- Open Graph -->
 <meta property="og:description"
-      content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+      content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.og_description }}{{ end }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="en">
-<meta property="og:image" content="{{ if .Params.featured_image }}{{ .Params.featured_image | relURL }}{{ else }}{{ .Site.Params.og_image | relURL }}{{ end }}" />
-<meta property="og:image:secure_url" content="{{ if .Params.featured_image }}{{ .Params.featured_image | absURL }}{{ else }}{{ .Site.Params.og_image | absURL }}{{ end }}" />
+<meta property="og:image" content="{{ .Site.Params.og_image }}" />
 <meta property="og:type" content="{{if .IsHome}}website{{else}}article{{end}}" />
 
 <!-- Twitter OG -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@yuankuan_">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@yuankuan_">
-<meta name="twitter:image" content="{{ if .Params.featured_image }}{{ .Params.featured_image | relURL }}{{ else }}{{ .Site.Params.og_image | relURL }}{{ end }}">
+<meta name="twitter:image" content="https://elsestudio.dev/assets/og_image.png">
 
 <!-- Keywords -->
 <meta name="keywords" content="software development, app development, Malaysia tech, tech lead, efficient development, reliable software, bug-free code, Flutter, Dart, Badger framework">
