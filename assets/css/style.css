@@ -1292,10 +1292,6 @@ video {
   height: auto;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-0 {
   width: 0px;
 }
