@@ -1,127 +1,196 @@
 {{ define "main" }}
 <main>
-    <div class="bg-gray-200">
-        <div class="max-w-screen-lg px-4 py-8 mx-auto">
-            <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
-                {{ .Site.Params.Hero.heading }}
-            </h1>
-            <p class="mx-auto mb-6 text-left font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
-                {{ .Site.Params.Hero.subheading }}
-            </p>
-        </div>
+  <div class="bg-gray-200">
+    <div class="max-w-screen-lg px-4 py-8 mx-auto">
+      <h1
+        class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white"
+      >
+        {{ .Site.Params.Hero.heading }}
+      </h1>
+      <p
+        class="mx-auto mb-6 text-left font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50"
+      >
+        {{ .Site.Params.Hero.subheading }}
+      </p>
     </div>
+  </div>
 
-    <!-- What we excel at -->
-      <div class="max-w-screen-lg px-4 py-4 mx-auto mt-8">
-        <h2 class="text-3xl text-center font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl lg:text-left">
-            {{ .Site.Params.P1.Heading }}
-        </h2>
-        
-        {{ range .Site.Params.P1.Content }}
-        <div class="p-2">
-          <figure class="md:flex max-w-screen-lg bg-primary-100 rounded-xl p-4 md:p-0 dark:bg-primary-800">
-            {{ $p1image := resources.Get .image }}
-            {{ with $p1image }}
-            {{ with .Resize (printf "320x320 webp q90") }}
-            <img imgh src="{{ .RelPermalink }}" width="320" height="320" class="w-32 h-32 md:w-64 md:h-auto md:rounded-md rounded-full mx-auto object-cover" alt="P1" />
-            {{ end }}
-            {{ end }}
-            
-            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-              <h3 class="text-xl font-semibold text-gray-900"> {{ .title }} </h3>
-              <p class="pb-4 text-md text-left dark:text-slate-100">
-                {{ .text }}
-              </p>
-              <a class="underline" href="{{ .link }}">{{ .link_text }}</a>
-            </div>
-          </figure>
+  <!-- What we excel at -->
+  <div class="max-w-screen-lg px-4 py-4 mx-auto mt-8">
+    <h2
+      class="text-3xl text-center font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl lg:text-left"
+    >
+      {{ .Site.Params.P1.Heading }}
+    </h2>
+
+    {{ range .Site.Params.P1.Content }}
+    <div class="p-2">
+      <figure
+        class="md:flex max-w-screen-lg bg-primary-100 rounded-xl p-4 md:p-0 dark:bg-primary-800"
+      >
+        {{ $p1image := resources.Get .image }} {{ with $p1image }} {{ with
+        .Resize (printf "320x320 webp q90") }}
+        <img
+          imgh
+          src="{{ .RelPermalink }}"
+          width="320"
+          height="320"
+          class="w-32 h-32 md:w-64 md:h-auto md:rounded-md rounded-full mx-auto object-cover"
+          alt="P1"
+        />
+        {{ end }} {{ end }}
+
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <h3 class="text-xl font-semibold text-gray-900">{{ .title }}</h3>
+          <p class="pb-4 text-md text-left dark:text-slate-100">{{ .text }}</p>
+          <a class="underline" href="{{ .link }}">{{ .link_text }}</a>
         </div>
+      </figure>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- How We Collaborate -->
+  <div
+    class="max-w-screen-lg px-4 py-4 mx-auto my-8 bg-primary-500 text-gray-100 rounded-md"
+  >
+    <h2
+      class="p-2 text-3xl text-center font-bold tracking-tight text-gray-100 dark:text-gray-50 sm:text-4xl lg:text-left"
+    >
+      {{ .Site.Params.P2.Heading }}
+    </h2>
+    <p class="mb-2 text-center md:text-left">
+      {{ .Site.Params.P2.Subheading }}
+    </p>
+
+    {{ range .Site.Params.P2.Content }}
+    <div class="p-2">
+      <div class="flex items-center">
+        {{ $p2image := resources.Get .image }} {{ with $p2image }}
+        <img
+          imgh
+          src="{{ .RelPermalink }}"
+          width="8"
+          height="8"
+          class="p-1 w-8 h-8 bg-primary-200 rounded-xl"
+          alt="P1"
+          loading="lazy"
+        />
         {{ end }}
+        <h3 class="ml-2 text-xl font-semibold text-gray-100">{{ .title }}</h3>
+      </div>
+      <p class="pt-2 mb-4 text-md">{{ .text }}</p>
     </div>
+    {{ end }}
 
-    <!-- How We Collaborate -->
-    <div class="max-w-screen-lg px-4 py-4 mx-auto my-8 bg-primary-500 text-gray-100 rounded-md">
-        <h2 class="p-2 text-3xl text-center font-bold tracking-tight text-gray-100 dark:text-gray-50 sm:text-4xl lg:text-left">
-            {{ .Site.Params.P2.Heading }}
-        </h2>
-        <p class="mb-2 text-center md:text-left">
-            {{ .Site.Params.P2.Subheading }}
+    <p class="pt-6 pb-4 text-center">
+      <span class="font-bold text-lg">{{ .Site.Params.P2.more.text }}</span>
+      <a class="underline" href="{{ .Site.Params.P2.more.link }}"
+        >{{ .Site.Params.P2.more.link_text }}</a
+      >
+    </p>
+  </div>
+
+  <!-- Testimonial -->
+  <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+    <figure class="max-w-screen-md mx-auto">
+      <svg
+        class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+        viewBox="0 0 24 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+          fill="currentColor"
+        ></path>
+      </svg>
+      <blockquote>
+        <p
+          class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white"
+        >
+          "ElseStudio transformed our development process, improving throughput
+          by 50% and delivering exceptional quality. Their customer-centric
+          approach and proactive feedback on UI/UX have redefined how we build
+          for SPEEDHOME. They're not just an outsourcing team—they're true
+          partners who own their work as if it's their own. Highly recommended!"
         </p>
-        
-        {{ range .Site.Params.P2.Content }}
-          <div class="p-2">
-            <div class="flex items-center ">
-              {{ $p2image := resources.Get .image }}
-              {{ with $p2image }}
-              <img imgh src="{{ .RelPermalink }}" width="8" height="8" class="p-1 w-8 h-8 bg-primary-200 rounded-xl" alt="P1" loading="lazy" />
-              {{ end }} 
-              <h3 class="ml-2 text-xl font-semibold text-gray-100"> {{ .title }} </h3>
-            </div>
-            <p class="pt-2 mb-4 text-md">
-              {{ .text }}
-            </p>
+      </blockquote>
+      <figcaption class="flex items-center justify-center mt-6 space-x-3">
+        <div
+          class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700"
+        >
+          <div class="pr-3 font-medium text-gray-900 dark:text-white">
+            Solid Shoo
           </div>
-        {{ end }}
-
-        <p class="pt-6 pb-4 text-center">
-          <span class="font-bold text-lg">{{ .Site.Params.P2.more.text }}</span>
-          <a class="underline" href="{{ .Site.Params.P2.more.link }}">{{ .Site.Params.P2.more.link_text }}</a>
-        </p>
-  </div>    
-
-    <!-- What We've Delivered -->
-    <div class="max-w-screen-lg px-4 pt-4 pb-16 mx-auto">
-        <h2 class="p-2 text-3xl text-center font-bold tracking-tight sm:text-4xl lg:text-left">
-            {{ .Site.Params.P3.Heading }}
-        </h2>
-        <p class="mb-2 text-center md:text-left">
-            {{ .Site.Params.P3.Subheading }}
-        </p>
-        
-        {{ range .Site.Params.P3.Content }}
-        <div class="p-2">
-          <figure class="md:flex bg-primary-100 rounded-xl p-4 md:p-0 dark:bg-primary-800">
-            {{ $p1image := resources.Get .image }}
-            {{ with $p1image }}
-            {{ with .Resize (printf "320x320 webp q90") }}
-            <img imgh src="{{ .RelPermalink }}" width="320" height="320" class="w-32 h-32 md:w-64 md:h-auto md:rounded-md rounded-full mx-auto object-cover" alt="P1" loading="lazy" />
-            {{ end }}
-            {{ end }}
-            
-            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-              <h3 class="text-xl font-semibold text-gray-900"> {{ .title }} </h3>
-              <p class="text-md text-left dark:text-slate-100">
-                {{ .text }}
-              </p>
-
-              {{ if .case_study }}
-              <div class="w-fit mx-auto md:mx-2">
-                {{ range .case_study }}
-                  {{ if .link }}
-                  <a href="{{ .link }}" class="flex items-center bg-primary-500 text-gray-100 border border-primary-500 py-2 px-6 mt-2 rounded items-center">
-                      <span>
-                          {{ .link_text }}
-                      </span>
-                  </a>
-                  {{ else }}
-                  <p class="flex items-center text-gray-500 border border-primary-200 py-2 px-6 mt-2 rounded items-center">
-                      <span>
-                          {{ .link_text }}
-                      </span>
-                  </p>
-                  {{ end }}
-                {{ end }}
-              </div>
-              {{ end }}
-            </div>
-          </figure>
+          <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
+            CTO at SPEEDHOME
+          </div>
         </div>
-        {{ end }}
-    </div>
+      </figcaption>
+    </figure>
+  </div>
 
-    <div class="max-w-screen-lg px-4 pt-4 pb-16 mx-auto">
-        {{ partial "contact.html" (dict "hint" "Hello!" "contact" .Site.Params.contact) }}
+  <!-- What We've Delivered -->
+  <div class="max-w-screen-lg px-4 pt-4 pb-16 mx-auto">
+    <h2
+      class="p-2 text-3xl text-center font-bold tracking-tight sm:text-4xl lg:text-left"
+    >
+      {{ .Site.Params.P3.Heading }}
+    </h2>
+    <p class="mb-2 text-center md:text-left">
+      {{ .Site.Params.P3.Subheading }}
+    </p>
+
+    {{ range .Site.Params.P3.Content }}
+    <div class="p-2">
+      <figure
+        class="md:flex bg-primary-100 rounded-xl p-4 md:p-0 dark:bg-primary-800"
+      >
+        {{ $p1image := resources.Get .image }} {{ with $p1image }} {{ with
+        .Resize (printf "320x320 webp q90") }}
+        <img
+          imgh
+          src="{{ .RelPermalink }}"
+          width="320"
+          height="320"
+          class="w-32 h-32 md:w-64 md:h-auto md:rounded-md rounded-full mx-auto object-cover"
+          alt="P1"
+          loading="lazy"
+        />
+        {{ end }} {{ end }}
+
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <h3 class="text-xl font-semibold text-gray-900">{{ .title }}</h3>
+          <p class="text-md text-left dark:text-slate-100">{{ .text }}</p>
+
+          {{ if .case_study }}
+          <div class="w-fit mx-auto md:mx-2">
+            {{ range .case_study }} {{ if .link }}
+            <a
+              href="{{ .link }}"
+              class="flex items-center bg-primary-500 text-gray-100 border border-primary-500 py-2 px-6 mt-2 rounded items-center"
+            >
+              <span> {{ .link_text }} </span>
+            </a>
+            {{ else }}
+            <p
+              class="flex items-center text-gray-500 border border-primary-200 py-2 px-6 mt-2 rounded items-center"
+            >
+              <span> {{ .link_text }} </span>
+            </p>
+            {{ end }} {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </figure>
     </div>
-    
+    {{ end }}
+  </div>
+
+  <div class="max-w-screen-lg px-4 pt-4 pb-16 mx-auto">
+    {{ partial "contact.html" (dict "hint" "Hello!" "contact"
+    .Site.Params.contact) }}
+  </div>
 </main>
 {{ end }}

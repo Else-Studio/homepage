@@ -8,6 +8,20 @@ description: Continuous development and maintaining post-launch
 
 {{< apps  >}}
 
+## In Their Words: The SpeedHome Experience
+
+We're always thrilled to hear how our work has positively impacted our clients. Here's a detailed testimonial from SpeedHome's CTO, sharing their experience of working with Else Studio on the SpeedHome mobile app:
+
+"At SPEEDHOME, we faced challenges with scalability and meeting deadlines in our frontend development. Despite having an in-house team, hiring qualified talent locally or internationally proved difficult, and our development throughput consistently fell short of expectations. That’s when we partnered with ElseStudio.
+
+Led by the highly capable Kuan, ElseStudio brought a fresh perspective and unmatched expertise to our projects. They didn’t just deliver; they proactively provided valuable feedback on UI/UX and SPEEDHOME’s customer needs, going beyond a traditional outsourcing model. Their customer-centric mindset, attention to detail, and commitment to excellence transformed our operations.
+
+The results speak for themselves. Our new mobile app, ZeroDawn, launched with a drastic improvement in UI/UX, maintainability, and stability. Development throughput increased by 50%, and critical bugs are now proactively resolved. Beyond technical excellence, ElseStudio approached every project with ownership and care, ensuring their work aligned with our business goals.
+
+For businesses looking for a development partner who values quality, speed, and collaboration, I wholeheartedly recommend ElseStudio. Working with them has been both transformative and rewarding for SPEEDHOME."
+
+-- Solid Shoo, SPEEDHOME's CTO
+
 ## A Steady Stream of Success: Delivering Value Consistently
 
 We've been at this for a while now—13 months to be exact. In that time, we've shipped a ton of updates, big and small. 49 production releases, 147 beta releases, over 2000 commits, and more than 300 pull requests. That's a lot of code! But here's the kicker: zero outages caused by our app releases. 
