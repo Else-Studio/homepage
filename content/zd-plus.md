@@ -1,5 +1,5 @@
 ---
-title: "SpeedHome Mobile App - Plus"
+title: "SPEEDHOME Mobile App - Plus"
 date: 2024-11-10T00:00:00+08:00
 draft: false
 language: en
@@ -12,11 +12,11 @@ description: Continuous development and maintaining post-launch
 
 We've been at this for a while now—13 months to be exact. In that time, we've shipped a ton of updates, big and small. 49 production releases, 147 beta releases, over 2000 commits, and more than 300 pull requests. That's a lot of code! But here's the kicker: zero outages caused by our app releases. 
 
-We're proud of our track record. It shows our commitment to delivering value consistently and keeping things running smoothly for SpeedHome and their users.
+We're proud of our track record. It shows our commitment to delivering value consistently and keeping things running smoothly for SPEEDHOME and their users.
 
 ## New Territory: Building Stuff We've Never Built Before
 
-This wasn't just about adding a new coat of paint to old features. We dove headfirst into creating entirely new things for SpeedHome's app—stuff they'd never had before. No more "make it like the old one, but slightly different." We were in uncharted territory, starting with just rough ideas and basic sketches.
+This wasn't just about adding a new coat of paint to old features. We dove headfirst into creating entirely new things for SPEEDHOME's app—stuff they'd never had before. No more "make it like the old one, but slightly different." We were in uncharted territory, starting with just rough ideas and basic sketches.
 
 We were involved from the get-go, early enough to chime in on how things should look and feel for the user, and how the API could work to ease our workload later. This meant working closely with their backend team, figuring out how to use their brand new API. Which, let's be honest, was a bit like walking a tightrope—those APIs hadn't been tested in the wild yet, so we had to be extra careful. We also needed to work even closer with the design team since they liked to provide finalized Figma GUI mockups. Matching those high-fidelity visuals with reality is always tough and requires a lot of negotiation and tolerance.
 
@@ -36,9 +36,9 @@ This whole experience proved that a well-structured team and streamlined process
 
 ## Adapting to Change: Rolling with the Punches 
 
-Businesses change, and priorities shift. That's the reality. In this case, SpeedHome needed to pump the brakes on app development and focus their attention elsewhere. We had to downshift—hard. We limited our work to only the essentials, stepping in when critical situations needed a frontend fix.
+Businesses change, and priorities shift. That's the reality. In this case, SPEEDHOME needed to pump the brakes on app development and focus their attention elsewhere. We had to downshift—hard. We limited our work to only the essentials, stepping in when critical situations needed a frontend fix.
 
-It wasn't easy, but our flexible team structure allowed us to weather the storm. Everyone was able to adapt and get by during the slowdown. And when SpeedHome was ready to hit the gas again, we were right there with them, ramping back up to full speed in less than a month. This demonstrated our ability to adapt to changing circumstances and remain a reliable partner, even when faced with unexpected turns.
+It wasn't easy, but our flexible team structure allowed us to weather the storm. Everyone was able to adapt and get by during the slowdown. And when SPEEDHOME was ready to hit the gas again, we were right there with them, ramping back up to full speed in less than a month. This demonstrated our ability to adapt to changing circumstances and remain a reliable partner, even when faced with unexpected turns.
 
 ## Keeping the Engine Running: Maintenance and Stability
 

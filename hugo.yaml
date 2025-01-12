@@ -124,9 +124,9 @@ params:
       - title: "Revamped a Mobile App for a Huge User Base"
         image: "images/pages/p3-zd.jpg"
         case_study:
-          - link_text: "Case study: Rewrite SpeedHome"
+          - link_text: "Case study: Rewrite SPEEDHOME"
             link: "/zd"
-          - link_text: "Case study: SpeedHome++"
+          - link_text: "Case study: SPEEDHOME++"
             link: "/zd-plus"
         text: "Our biggest win? Replacing an outdated mobile app with a modern, high-performing version for a business with tens of thousands of users. Smoother, more visually appealing, and no more crashes. (This was our founding mission, and we aced it!)"
       - title: "Turned App Ideas into Reality"
@@ -147,7 +147,7 @@ params:
       - title: "Delivered (Mostly) Bug-Free Code"
         image: "images/pages/p3-bug.jpg"
         case_study:
-          - link_text: "Case study: SpeedHome++"
+          - link_text: "Case study: SPEEDHOME++"
             link: "/zd-plus#keeping-the-engine-running-maintenance-and-stability"
         text: "All our work goes through rigorous in-house QA with test cases written before we even start coding.  We hate bugs as much as you do."
 
@@ -198,11 +198,11 @@ menu:
       weight: 50
   cases:
     - identifier: zd
-      name: Rewrite SpeedHome
+      name: Rewrite SPEEDHOME
       url: /zd
       weight: 10
     - identifier: zd-plus
-      name: SpeedHome++
+      name: SPEEDHOME++
       url: /zd-plus
       weight: 20
   jobs:
@@ -228,11 +228,11 @@ menu:
       url: /how
       weight: 20
     - identifier: zd
-      name: Rewrite SpeedHome
+      name: Rewrite SPEEDHOME
       url: /zd
       weight: 30
     - identifier: zd-plus
-      name: SpeedHome++
+      name: SPEEDHOME++
       url: /zd-plus
       weight: 31
     - identifier: dev_job
